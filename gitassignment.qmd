@@ -1,0 +1,61 @@
+---
+title: "Git-Github Assignment"
+format: pdf
+editor: visual
+---
+
+# Exercise-Bash
+
+# Question:
+
+What is difference between shell and bash?
+
+-   “shell” is a broad term that refers to any program that provides a command-line interface, “Bash” is a specific type of shell that is widely used in Unix/Linux systems.
+
+# Exercise 1:
+
+What is your home directory? What files/folders exist in your home directory? Navigate to it and then navigate back to your notes.
+
+my home directory has all my personal files
+
+# Exercise 2:
+
+Where does the following command take you? How does it work?
+
+```         
+    cd ~/../../..
+```
+
+it takes me to a new directory that has the basics i.e. library, applications, home, users, etc.
+
+# Exercise 3:
+
+Read the manual page of `ls`. What does the `a` flag do? What does the `l` flag do?
+
+a: "Include directory entries whose names begin with a dot (‘.’)."
+
+l: "(The lowercase letter “ell”.) List files in the long format, as described in the The Long Format subsection below."\
+
+# Exercise 4:
+
+Create a new file with `touch` command. for instance `touch myfile.txt`. Run `stat myfile.txt` what information do you get?
+
+i get time stamps/information on time and dates
+
+# Exercise 5:
+
+Run `ls` and from there list select a file. Now run ‘ls -l’ to display the details of the files, showing that it has been created or updated. what information does it give you regarding the `myfile.txt` and your selected file.
+
+it gives me the date i created the myfile.txt and my other file, as well as the time stamp and its name and some numbers and who created it.
+
+# Exercise 6:
+
+Add the following line `This line is my first line` to `myfile.txt`. Then run `cat myfile.txt` to show the line is added.
+
+# Exercise 7:
+
+Run `touch myfile.txt` then run `ls -l myfile.txt` does the “timestep” for the file `myfile.txt` is updated? Show the output. *Note: Another common use of the touch command is to update the timestamps of an existing file.*
+
+yes! the time stamp or "timestep' is updated to the current time. the output is copied below;
+
+-rw-r--r--\@ 1 me staff 22 Feb 6 23:08 myfile.txt
