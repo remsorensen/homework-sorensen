@@ -1,0 +1,28 @@
+---
+title: "hw2"
+format: html
+editor: visual
+---
+
+Problem 1:
+
+```{r}
+library(tidyverse)
+
+tribble( ~x,
+ ~y,    ~w,    ~z,
+210,   300,   220,   180,
+102,   100,   119,   187,
+176,   175,   188,   173,
+87,    95,   91,     94,
+202,   210,  234,    218,
+110,   122,  131,    128,
+) -> dt 
+dt
+```
+
+```{r}
+
+```
+
+The `echo: false` option disables the printing of code (only output is displayed).
