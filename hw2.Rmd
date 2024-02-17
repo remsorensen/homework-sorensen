@@ -1,0 +1,49 @@
+---
+title: "HW 2 DATA 613"
+author: "remy sorensen"
+date: "`r Sys.Date()`"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r}
+library(tidyverse)
+```
+
+Problem 1:
+Copy paste and run the tribble given below.
+  library(tidyverse)
+tribble( ~x,
+
+  ~y,    ~w,    ~z,
+210,   300,   220,   180,
+102,   100,   119,   187,
+176,   175,   188,   173,
+87,    95,   91,     94,
+202,   210,  234,    218,
+110,   122,  131,    128,
+) -> dt dt
+```{r}
+library(tidyverse)
+
+tribble( ~x,
+ ~y,    ~w,    ~z,
+210,   300,   220,   180,
+102,   100,   119,   187,
+176,   175,   188,   173,
+87,    95,   91,     94,
+202,   210,  234,    218,
+110,   122,  131,    128,
+) -> dt 
+dt
+```
+
+1_a:
+• Use and show a map function to find the “mean” of each column of the dt data table 
+1_b:
+• Use and show a map function to find the “standard deviation” of each column of the dt data table.
+1_c:
+• Use and show a map function that will calculate the “square root” of each value of each column of the data table dt.
